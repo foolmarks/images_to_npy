@@ -95,9 +95,11 @@ for i in range(len(imageList)):
 
 # write placeholder arrays into a binary npz file
 np.savez('dataset.npz', x=x, y=y)
+```
 
 For .npz files, the np.load function does not directly return numpy arrays, we need to unpack them like this:
 
+```python
 train_f = np.load('dataset.npz')
 x_train = train_f['x']
 y_train = train_f['y']
