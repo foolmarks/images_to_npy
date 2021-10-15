@@ -105,7 +105,7 @@ The complete list of command line arguments of img_to_npy.py are as follows:
 Notes:
 
 1. If `--normalize` is specified, the x array will be of float32 type, otherwise uint8 is used.
-2. If `--resize` is specified, the images will be resized and center cropped to input_height x input_width. If `--resize` is not specified, the images must all be of dimensions input_height x input_width.
+2. If `--resize` is specified, the images will be resized and center cropped to input_height x input_width. If `--resize` is not specified, the images must all be of dimensions input_height x input_width before running the script.
 
 
 
